@@ -1,0 +1,19 @@
+﻿commit 67e845eb0cabc31498efde09269887bd8696b41e
+Author: fargalix <elfarqali@gmail.com>
+Date:   Thu Feb 26 06:49:58 2026 +0000
+
+    Fix: Add fullscreen to iframe allow attributes so subtitles remain visible in fullscreen
+
+diff --git a/components/player-switcher.tsx b/components/player-switcher.tsx
+index cf25077..d614777 100644
+--- a/components/player-switcher.tsx
++++ b/components/player-switcher.tsx
+@@ -156,7 +156,7 @@ export function PlayerSwitcher({ sources, iframeKey, title, onVideoEnded }: Play
+                 display: "block",
+               }}
+               allowFullScreen
+-              allow="encrypted-media; autoplay; picture-in-picture"
++              allow="autoplay; fullscreen; encrypted-media; picture-in-picture; display-capture; clipboard-write; web-share"
+               title={title ?? "Watch"}
+             />
+           ) : (

@@ -1,0 +1,7 @@
+﻿commit 3cc426ad93d7a5a97878fdff67cac7c116eb5046
+Author: fargalix <elfarqali@gmail.com>
+Date:   Thu Feb 26 06:53:15 2026 +0000
+
+    Update player component
+
+components/player-switcher.tsx

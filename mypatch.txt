@@ -1,0 +1,19 @@
+﻿commit 3cc426ad93d7a5a97878fdff67cac7c116eb5046
+Author: fargalix <elfarqali@gmail.com>
+Date:   Thu Feb 26 06:53:15 2026 +0000
+
+    Update player component
+
+diff --git a/components/player-switcher.tsx b/components/player-switcher.tsx
+index d614777..cf25077 100644
+--- a/components/player-switcher.tsx
++++ b/components/player-switcher.tsx
+@@ -156,7 +156,7 @@ export function PlayerSwitcher({ sources, iframeKey, title, onVideoEnded }: Play
+                 display: "block",
+               }}
+               allowFullScreen
+-              allow="autoplay; fullscreen; encrypted-media; picture-in-picture; display-capture; clipboard-write; web-share"
++              allow="encrypted-media; autoplay; picture-in-picture"
+               title={title ?? "Watch"}
+             />
+           ) : (

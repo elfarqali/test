@@ -1,0 +1,5 @@
+﻿3cc426a Update player component
+67e845e Fix: Add fullscreen to iframe allow attributes so subtitles remain visible in fullscreen
+a1c81f9 feat(player): auto skip to next tv episode natively via cross-origin postMessage events
+1fcaec4 feat: persist user player selection across sessions
+7a4fe05 up

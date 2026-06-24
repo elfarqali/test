@@ -1,0 +1,15 @@
+﻿3cc426a Update player component
+67e845e Fix: Add fullscreen to iframe allow attributes so subtitles remain visible in fullscreen
+a051d85 SEO: Update Home Page title and meta description
+dd2a5ef SEO: Optimize Home Page title and meta description
+6bc9937 feat(tmdb): globally filter out all unreleased movies and tv series
+1b57bf4 fix(players): prevent caching empty array on db timeout which breaks UI randomly on page refresh
+a1c81f9 feat(player): auto skip to next tv episode natively via cross-origin postMessage events
+c232dbd fix(tmdb): bypass Next.js image optimization for all main movie and tv pages to prevent squoosh crashes
+a8df891 fix(tmdb): bypass Next.js image optimization for external cdn covers to prevent squoosh crashes
+ea11538 feat: integrate Vercel Analytics
+c83d489 fix: explicit TMDB id cast to fix SEO text slug spilling into generic iframe source URL matching logic
+1fcaec4 feat: persist user player selection across sessions
+e5ab857 hide unauthenticated signin/up buttons from mobile navbar
+528957d fix Continue Watching local history mapping & update mobile dynamic grids to 3 columns
+a111070 implement full Technical and On-Page SEO optimization suite
